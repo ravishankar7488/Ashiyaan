@@ -47,7 +47,6 @@ npm install
 
 # Create a .env file in the root directory and add:
 # MONGODB_URI=<your-mongodb-atlas-connection-string>
-# SESSION_SECRET=<your-session-secret>
 
 # Start the server
 node index.js

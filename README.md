@@ -37,7 +37,7 @@ To run **Ashiyaan** locally on your system:
 
 ```bash
 # Clone the repository
-git clone https://github.com/RaviShankar-coder/Ashiyaan.git
+git clone https://github.com/ravishankar7488/Ashiyaan.git
 
 # Navigate into the project folder
 cd Ashiyaan

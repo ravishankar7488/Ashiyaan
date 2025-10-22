@@ -1,0 +1,28 @@
+<% layout("/layouts/boilerplate")%>
+<body>
+  <h1>All Listings</h1>
+
+  <div class="row row-cols-lg-3 row-cols-md-3 row-cols-sm-1">
+    <%result.forEach((each)=>{%>
+    <a
+      href="listings/<%=each._id%>"
+      style="text-decoration: none; color: black"
+    >
+      <div class="card col">
+        <img
+          src="<%=each.image.url%>"
+          class="card-img-top index-image"
+          alt="..."
+        />
+        <div class="card-img-overlay"></div>
+        <div class="card-body">
+          <p class="card-text">
+            <b><%=each.title%></b><br />₹
+            <%=each.price.toLocaleString("en-IN")%>/night
+          </p>
+        </div>
+      </div>
+    </a>
+    <%})%>
+  </div>
+</body>

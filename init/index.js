@@ -4,7 +4,7 @@ const Listing=require("../models/listing.js")
 
 main().then(()=>{console.log("connected to wanderlust");}).catch((err)=>{console.log(err);})
 async function main(){
-  await mongoose.connect("mongodb://127.0.0.1:27017/wanderlust")
+  await mongoose.connect("mongodb+srv://pravi5653no0987:Oc6IJ83zpYl2gVyi@cluster0.waryf2v.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 }
 
 const initDB= async ()=>{
